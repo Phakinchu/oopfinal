@@ -23,7 +23,7 @@ public class TileGrid {
                     map[i][j] = new Tile(i * 32, j * 32, 32, 32, TILE_TYPE.Grass);
                 }
                 else{
-                    map[i][j] = new Tile(i * 32, j * 32, 32, 32, TILE_TYPE.Grass);
+                    map[i][j] = new Tile(i * 32, j * 32, 32, 32, TILE_TYPE.Storm);
                 }
             }
         }

@@ -2,7 +2,7 @@ package GamePackage;
 
 public enum TILE_TYPE {
 
-    Grass("Grass", true);
+    Grass("Grass", true),Storm("testStorm",true);
 
 
     protected String textureName;
